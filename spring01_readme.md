@@ -548,7 +548,7 @@
 
 #### 2-1-1-1. 오라클의 예
 
-![프로젝트설정](../images/pom.xml.png)
+![프로젝트설정](/pom.xml.png)
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -887,7 +887,7 @@
 
 **프로젝트이름\src\main\webapp\WEB-INF\web.xml 파일을 열고, 웹 컨테이너와 필터, 서블릿 요청 처리, 외부 자원 등을 어떻게 할지 전반적인 웹 환경을 설정합니다.**
 
-![웹환경설정](../images/web.xml.png)
+![웹환경설정](/web.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -950,7 +950,7 @@
 
 #### 2-1-3-1. 오라클의 예
 
-![외부자원환경설정](../images/root-context.xml.png)
+![외부자원환경설정](/root-context.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1013,7 +1013,7 @@
 
 **프로젝트이름\src\main\webapp\WEB-INF\spring\appServlet\servlet-context.xml 파일을 열고, 외부 리소스의 접근 권한을 설정합니다.**
 
-![리소스접근권한환경설정](../images/servlet-context.xml.png)
+![리소스접근권한환경설정](/servlet-context.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1074,7 +1074,7 @@
 
 **리소스 디렉토리 생성하기**
 
-![리소스 디렉토리](../images/directory1.png)
+![리소스 디렉토리](/directory1.png)
 
 생성할 디렉토리 이름 목록
 
@@ -1101,7 +1101,7 @@
 
 **프로젝트이름\src\main\resources\mybatis-config.xml 파일을 새로 생성하고, Mapper에 대한 내용을 설정하도록 합니다.**
 
-![맵퍼환경설정](../images/mybatis-config.xml.png)
+![맵퍼환경설정](/mybatis-config.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1123,7 +1123,7 @@
 
 **프로젝트이름\src\main\resources\log4j.xml을 열고 어떤 객체에 대한 로그를 기록할지 설정하도록 합니다.**
 
-![로거설정](../images/log4j.xml.png)
+![로거설정](/log4j.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1196,7 +1196,7 @@
 
 **프로젝트이름\src\main\resources\log4jdbc.log4j2.properties 파일을 새로 만들어 로거특성정보를 저장합니다.**
 
-![로거특성파일](../images/log4jdbc.log4j2.properties.png)
+![로거특성파일](/log4jdbc.log4j2.properties.png)
 
 ```properties
 log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
@@ -1206,7 +1206,7 @@ log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
 
 **프로젝트이름\src\main\resources\logback.xml 파일을 작성하여 로그정보를 주기적으로 백업할 내용을 설정합니다.**
 
-![로그백업설정](../images/logback.xml.png)
+![로그백업설정](/logback.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1267,7 +1267,7 @@ log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
 
 **SQL Developer 를 실행하고, 오라클을 접속한 후 샘플(sample) 테이블을 작성합니다.**
 
-![SQLDEVELOPER1](../images/sqldeveloper1.png)
+![SQLDEVELOPER1](/sqldeveloper1.png)
 
 ```sql
 create table sample (num int, title varchar2(50), res TIMESTAMP default sysdate);
@@ -1289,7 +1289,7 @@ commit;
 
 **프로젝트이름\src\main\resources\mappers\sampleMapper.xml 파일을 새로 생성하고, sample에 대한 sql 명령과 그에 해당하는 xml태그를 작성하도록 합니다.**
 
-![샘플맵퍼](../images/sampleMapper.xml.png)
+![샘플맵퍼](/sampleMapper.xml.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1317,7 +1317,7 @@ commit;
 
 **프로젝트에 작성할 각종 패키지를 생성합니다.**
 
-![패키지생성](../images/package1.png)
+![패키지생성](/package1.png)
 
 ```
 프로젝트이름\src\main\java\com\프로젝트이름\controller
@@ -1337,7 +1337,7 @@ commit;
 
 **프로젝트이름\src\main\java\com\프로젝트이름\dao\SampleDAO.java 작성**
 
-![DAO작성](../images/SampleDAO.java.png)
+![DAO작성](/SampleDAO.java.png)
 
 ```java
 package com.spring1.dao;
@@ -1359,7 +1359,7 @@ public interface SampleDAO {
 
 **프로젝트이름\src\main\java\com\프로젝트이름\dao\SampleDAOImpl.java 작성**
 
-![DAO작성](../images/SampleDAOImple.java.png)
+![DAO작성](/SampleDAOImple.java.png)
 
 ```java
 package com.spring1.dao;
@@ -1413,7 +1413,7 @@ public class SampleDAOImpl implements SampleDAO {
 
 **프로젝트이름\src\main\java\com\프로젝트이름service\SampleService.java 작성**
 
-![서비스작성](../images/SampleService.java.png)
+![서비스작성](/SampleService.java.png)
 
 ```java
 package com.spring1.service;
@@ -1435,7 +1435,7 @@ public interface SampleService {
 
 **프로젝트이름\src\main\java\com\프로젝트이름\service\SampleServiceImpl.java 작성**
 
-![서비스작성](../images/SampleServiceImpl.java.png)
+![서비스작성](/SampleServiceImpl.java.png)
 
 ```java
 package com.spring1.service;
@@ -1596,7 +1596,7 @@ public class HomeController {
 
 **프로젝트이름\src\main\webapp\WEB-INF\views\sample\sampleList.jsp 작성**
 
-![샘플목록](../images/sampleList.jsp.png)
+![샘플목록](/sampleList.jsp.png)
 
 ```java
 <%@ page language="java" contentType="text/html; charset=UTF-8"
