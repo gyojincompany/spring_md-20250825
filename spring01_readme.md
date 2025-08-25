@@ -34,7 +34,7 @@
 
 **(1) 다운로드 페이지로 이동** ☞ [sts다운로드링크](https://github.com/spring-attic/toolsuite-distribution/wiki/Spring-Tool-Suite-3)
 
-![STS다운로드페이지](../images/stsdownload1.png)
+![STS다운로드페이지](/stsdownload1.png)
 
 **(2) 아래와 같은 화면이 나올 때까지 스크롤합니다.**
 
