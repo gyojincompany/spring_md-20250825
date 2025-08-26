@@ -154,7 +154,7 @@
 
 **(3) Dash 보드 패널을 닫습니다.**
 
-![STS설치](../images/stsinstall13.png)
+![STS설치](/stsinstall13.png)
 
 <br>
 
