@@ -402,7 +402,7 @@
 <br>
 
 **https-content.xml 다운로드 링크** ☞
-<a href="https-content.xml" download>https-content.xml 다운로드 받기</a>
+![https-content.xml](/https-content.xml)
 
 <br>
 
